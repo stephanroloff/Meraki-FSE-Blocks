@@ -1,0 +1,1 @@
+console.log("JAVASCRIPT FRONTEND AND EDITOR! - Static")

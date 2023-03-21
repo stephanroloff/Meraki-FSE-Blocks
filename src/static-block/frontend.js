@@ -1,0 +1,1 @@
+console.log("JAVASCRIPT JUST FRONTEND! - Static")
