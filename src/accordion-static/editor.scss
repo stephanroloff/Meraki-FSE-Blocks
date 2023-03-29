@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+[data-type="create-block/accordion-static-block"] {
+	border: 1px solid #dfdada;
+
+	.panel {
+		max-height: 100%;
+		overflow: visible;
+		padding: 0;
+	}
+}

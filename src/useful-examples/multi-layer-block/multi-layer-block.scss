@@ -1,0 +1,80 @@
+.main-container,
+.is-root-container .wp-block{
+
+    .wp-block-city-concepts-multi-layer-block{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        // background-color: #454c5392;
+        min-height: 30px;
+        max-width: 1120px;
+        overflow: hidden;
+
+        .multi-layer-wrapper{
+
+            figure{
+                margin: 0;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+            
+
+        }
+    }
+    
+}
+
+
+[data-type="city-concepts/multi-layer-block"]{
+    
+
+    figure{
+        display: flex;
+        justify-content: center;
+
+        .components-resizable-box__container{
+            max-width: 100% !important;
+            max-height: 100% !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        figcaption{
+            display: none;
+        }
+    }
+
+    .is-selected{
+        z-index: 1000;
+    }
+
+}
+
+
+
+.is-selected{
+    .multi-layer-wrapper{
+        .block-editor-inner-blocks{
+            .block-editor-block-list__layout{
+                .block-list-appender{
+                    .block-editor-default-block-appender{
+                        .block-editor-inserter{
+                            .components-button{
+                                svg{
+                                    z-index: 3000 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,85 @@
+$transition-time: 0.3s;
+
+.wp-block-city-concepts-accordion-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .accordion-container {
+        position: relative;
+        // display: flex;
+        display: none;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        /* *** */
+        border: 1px solid black;
+
+        animation-name: fadeIn;
+        animation-duration: 0.5s;
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .slide-1 {
+            background-color: rgb(64, 8, 8);
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 75%;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+        .slide-2 {
+            background-color: rgb(8, 12, 64);
+
+            position: absolute;
+            top: 0;
+            left: calc(1 * 75%);
+            width: 75%;
+            height: 100%;
+            border: 1px solid black;
+            transition: $transition-time;
+        }
+
+        .slide-3 {
+            background-color: rgb(8, 64, 31);
+
+            position: absolute;
+            top: 0;
+            width: 75%;
+            height: 100%;
+            border: 1px solid black;
+            transition: $transition-time;
+        }
+
+        // .slide-4 {
+        //     background-color: rgb(64, 61, 8);
+
+        //     position: absolute;
+        //     top: 0;
+        //     width: 75%;
+        //     height: 100%;
+        //     border: 1px solid black;
+        //     transition: $transition-time;
+        // }
+
+        .content {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slide {
+            padding: 0 40px;
+        }
+    }
+}

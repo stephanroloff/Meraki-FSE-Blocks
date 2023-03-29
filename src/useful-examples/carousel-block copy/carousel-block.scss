@@ -1,0 +1,136 @@
+.main-container {
+
+    .swiper_ {
+        background-color: rgb(238, 238, 238);
+
+        // @media(max-width: 1200px) {
+        //     padding: 0 40px;
+        // }
+
+        // @media(max-width: 700px) {
+        //     padding: 0;
+        // }
+
+        .swiper-wrapper_ {
+            // display: flex;
+
+            .slide_ {
+                // width: 360px;
+
+                .slide_intern {
+                    // padding-right: 20px;
+
+                    // @media(max-width: 700px) {
+                    //     padding-right: 0px;
+                    //     padding: 0 70px;
+                    //     margin-bottom: 40px;
+                    // }
+
+                }
+            }
+        }
+
+        .swiper-pagination_ {
+            .swiper-pagination-bullet {
+                background-color: #9d9ea0;
+
+                &.-active {}
+            }
+        }
+
+        .swiper-button-prev_ {
+            color: #9d9ea0;
+        }
+
+        .swiper-button-next_ {
+            color: #9d9ea0;
+        }
+
+        @media(max-width: 700px) {}
+    }
+
+    // .wp-block-city-concepts-carousel-block{
+
+    // }
+
+    // [data-type="city-concepts/info-with-bg"]{
+    //     width: 740px;
+    // }
+
+    // .wp-block-city-concepts-info-with-bg,
+    // .info-with-bg-container > * > .block-editor-block-list__layout{
+    //     display: flex;
+    //     align-items: stretch;
+    //     width: 740px;
+
+    //     @media(max-width: 1200px){
+    //         width: 100%;
+    //     }
+
+    //     .img-container{
+    //         margin: 0;
+    //         display: flex;
+    //         align-items: flex-end;
+    //         max-width: 60px;
+
+    //         figure{
+    //             max-width: 60px;
+    //             margin-right: 10px;
+    //         }
+    //     }
+
+    //     .green-line{
+    //         margin: 0;
+    //         background-color: #afca289b;
+    //         width: 20px;
+    //     }
+    //     &.is-style-blue-version .green-line{
+    //         background-color: #d8e9f2;
+    //     }
+
+    //     .info-container{
+    //         position: relative;
+    //         left: -7px;
+    //         margin: 0;
+    //         margin-top: 5px;
+    //         max-width: 660px;
+    //         font-size: 22px !important;
+
+    //         @media(max-width: 1200px){
+    //             width: 100%;
+    //         }
+
+    //         p{
+    //             width: auto;
+
+    //             a{
+    //                 @media(max-width: 800px){
+    //                     position: relative;
+    //                     left: 10px;
+    //                 }
+    //             }
+    //         }
+    //     }
+
+    // }
+
+}
+
+
+//EDITOR
+
+.is-root-container {
+    [data-type="city-concepts/carousel-block"] {
+        .block-editor-inner-blocks {
+            &>.block-editor-block-list__layout {
+                display: flex;
+
+                &>.wp-block-group {
+                    border: 1px solid black;
+                    margin-right: 10px;
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+}

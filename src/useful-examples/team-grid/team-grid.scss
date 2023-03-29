@@ -1,0 +1,12 @@
+@import "./team-grid-member/team-grid-member.scss";
+
+.main-container,
+.is-root-container {
+
+    .wp-block-city-concepts-team-grid,
+    [data-type="city-concepts/team-grid"]>.block-editor-inner-blocks>.block-editor-block-list__layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
