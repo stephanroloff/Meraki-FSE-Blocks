@@ -1,31 +1,15 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/accordion-static-block",
+	"name": "create-block/carousel-block",
 	"version": "0.1.0",
-	"title": "Accordion Static Block",
+	"title": "Carousel Block",
 	"category": "merakistarter",
-	"description": "Accordion Static Block",
+	"description": "Carousel Block",
 	"supports": {
 		"html": false
 	},
-	"attributes": {
-		"titleAccordion": {
-			"type": "string",
-			"default": "Title Accordion"
-		},
-		"mediaURL1": {
-			"type": "string",
-			"default": ""
-		},
-		"mediaID1": {
-			"type": "number"
-		},
-		"mediaAlt1": {
-			"type": "string",
-			"default": ""
-		}
-	},
+	"attributes": {},
 	"textdomain": "gutenpride",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",

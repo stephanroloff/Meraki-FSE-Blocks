@@ -1,0 +1,48 @@
+Important Information
+
+Dependencies:
+swiper.js
+
+How to use it:
+1-npm install swiper
+2-Always Carousel or Responsive Carousel? => Button
+
+if we want ALWAYS CAROUSEL
+  
+  //NON-RESPONSIVE (Carousel always active)----------------
+
+  startSwiper();
+
+  //RESPONSIVE---------------------------------------------
+  // let swiperBtnPrevClass = document.querySelector('.swiper-button-prev');
+  // let swiperBtnNextClass = document.querySelector('.swiper-button-next');
+  // let x = window.matchMedia("(max-width: 700px)");
+
+  // if (x.matches) { // If media query matches
+  //   startSwiper();
+  // } else {
+  //   swiperBtnPrevClass.style.display = 'none';
+  //   swiperBtnNextClass.style.display = 'none';
+  // }
+  //-------------------------------------------------------
+
+if we want RESPONSIVE CAROUSEL (Starting from 700px) 
+
+  //NON-RESPONSIVE (Carousel always active)----------------
+
+  //startSwiper();
+
+  //RESPONSIVE---------------------------------------------
+  let swiperBtnPrevClass = document.querySelector('.swiper-button-prev');
+  let swiperBtnNextClass = document.querySelector('.swiper-button-next');
+  let x = window.matchMedia("(max-width: 700px)");
+
+  if (x.matches) { // If media query matches
+    startSwiper();
+  } else {
+     swiperBtnPrevClass.style.display = 'none';
+     swiperBtnNextClass.style.display = 'none';
+  }
+  //-------------------------------------------------------
+    
+

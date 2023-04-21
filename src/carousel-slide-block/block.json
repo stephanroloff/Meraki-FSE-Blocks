@@ -1,18 +1,18 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/accordion-static-block",
+	"name": "create-block/carousel-slide-block",
 	"version": "0.1.0",
-	"title": "Accordion Static Block",
+	"title": "Carousel Slide Block",
 	"category": "merakistarter",
-	"description": "Accordion Static Block",
+	"description": "Carousel Slide Block",
 	"supports": {
 		"html": false
 	},
 	"attributes": {
-		"titleAccordion": {
+		"titleCarousel1": {
 			"type": "string",
-			"default": "Title Accordion"
+			"default": "Title Carousel 1"
 		},
 		"mediaURL1": {
 			"type": "string",

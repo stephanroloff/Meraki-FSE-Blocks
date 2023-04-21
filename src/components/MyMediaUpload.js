@@ -5,7 +5,7 @@ import {
 import {
     Button
 } from "@wordpress/components";
-import pfeil from "./assets/pfeil_accordion.png";
+// import pfeil from "./assets/pfeil_accordion.png";
 
 function MyMediaUpload(props) {
     let { attributes, setAttributes, isSelected } = props.properties

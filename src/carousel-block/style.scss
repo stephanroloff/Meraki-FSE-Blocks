@@ -1,0 +1,37 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+
+.swiper {
+	.swiper-wrapper {
+		.slide {
+			width: 100%;
+
+			.slide_intern {}
+		}
+	}
+
+	.swiper-pagination {
+		.swiper-pagination-bullet {
+			background-color: #9d9ea0;
+
+			&.-active {}
+		}
+	}
+
+	.swiper-button-prev {
+		color: #9d9ea0;
+	}
+
+	.swiper-button-next {
+		color: #9d9ea0;
+	}
+
+	@media(max-width: 700px) {}
+}

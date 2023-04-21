@@ -1,6 +1,6 @@
 import { __ } from '@wordpress/i18n';
 import { InnerBlocks, useBlockProps, RichText, } from '@wordpress/block-editor';
-import MyMediaUpload from './MyMediaUpload';
+import MyMediaUpload from '../components/MyMediaUpload';
 import './editor.scss';
 
 export default function Edit(props) {
