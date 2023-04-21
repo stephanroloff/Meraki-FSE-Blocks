@@ -1,0 +1,11 @@
+Important Information
+
+Dependencies:
+swiper.js
+
+How to use it:
+1-npm install swiper
+2-Always Carousel or Responsive Carousel? => Button
+
+In the file swiper.js you can change the speed and the slidesPerView (you always have to have the double. 
+For example: slidesPerView: 2, yo need at least 4 slides)

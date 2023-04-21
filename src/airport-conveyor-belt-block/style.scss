@@ -9,6 +9,7 @@
 
 .swiper {
 	.swiper-wrapper {
+		transition-timing-function: linear; //NO DELETE!
 
 		.slide {
 			width: 100%;

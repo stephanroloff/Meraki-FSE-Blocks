@@ -46,3 +46,7 @@ if we want RESPONSIVE CAROUSEL (Starting from 700px)
   //-------------------------------------------------------
     
 
+
+
+Crear una efecto de cinta de aeropuerto (slides automaticos a velocidad constante)
+1- 

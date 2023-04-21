@@ -11,7 +11,7 @@ setTimeout(() => {
 
   function startSwiper() {
 
-    const swiper = new Swiper('.wp-block-create-block-carousel-block', {
+    const swiper = new Swiper('.wp-block-create-block-airport-conveyor-belt-block', {
       // Optional parameters
       // direction: 'vertical',
       direction: 'horizontal',
@@ -35,12 +35,11 @@ setTimeout(() => {
         el: '.swiper-scrollbar',
       },
 
-      // speed: 1000,
-      // autoplay: {
-      //   delay: 2000,
-      //   disableOnInteraction: false,
-      // },
-      autoplay: false,
+      speed: 10000,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
 
       slidesPerView: '1',
     });

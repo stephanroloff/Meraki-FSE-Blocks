@@ -26,6 +26,8 @@ function create_blocks() {
     register_block_type( dirname(__FILE__) . '/build/accordion-static');
     register_block_type( dirname(__FILE__) . '/build/carousel-block');
     register_block_type( dirname(__FILE__) . '/build/carousel-slide-block');
+    register_block_type( dirname(__FILE__) . '/build/airport-conveyor-belt-block');
+    
 }
 add_action( 'init', 'create_blocks' );
 
