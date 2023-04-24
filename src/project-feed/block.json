@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/project-feed-block",
+	"version": "0.1.0",
+	"title": "Project Feed Block",
+	"category": "merakistarter",
+	"description": "Project Feed Block",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"amountSelected": {
+			"type": "string",
+			"default": "Step"
+		},
+		"offset": {
+			"type": "string",
+			"default": "0"
+		}
+	},
+	"textdomain": "gutenpride",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"script": "file:./script.js",
+	"viewScript": "file:./frontend.js",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,9 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+.wp-block-create-block-project-feed-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
