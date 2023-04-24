@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+.wp-site-blocks .wp-block-create-block-team-grid-block,
+.is-root-container .wp-block-create-block-team-grid-block>.block-editor-inner-blocks>.block-editor-block-list__layout {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: rgb(162, 223, 162);
+	color: rgb(56, 56, 56)
+}

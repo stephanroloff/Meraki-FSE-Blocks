@@ -27,6 +27,8 @@ function create_blocks() {
     register_block_type( dirname(__FILE__) . '/build/carousel-block');
     register_block_type( dirname(__FILE__) . '/build/carousel-slide-block');
     register_block_type( dirname(__FILE__) . '/build/airport-conveyor-belt-block');
+    register_block_type( dirname(__FILE__) . '/build/team-grid');
+    register_block_type( dirname(__FILE__) . '/build/team-grid-member');
     
 }
 add_action( 'init', 'create_blocks' );
