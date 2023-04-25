@@ -1,11 +1,11 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/accordion-vertical",
+	"name": "create-block/accordion-vertical-text",
 	"version": "0.1.0",
-	"title": "Accordion Vertical Block",
+	"title": "Accordion Vertical Text Block",
 	"category": "merakistarter",
-	"description": "Accordion Vertical Block",
+	"description": "Accordion Vertical Text Block",
 	"supports": {
 		"html": false
 	},
