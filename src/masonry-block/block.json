@@ -1,26 +1,19 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/project-feed-block",
+	"name": "create-block/dynamic-block",
 	"version": "0.1.0",
-	"title": "Project Feed Block",
-	"category": "merakistarter",
-	"description": "Project Feed Block",
+	"title": "Dynamic Block Example",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Dynamic Block Example",
 	"supports": {
 		"html": false
 	},
 	"attributes": {
 		"amountSelected": {
 			"type": "string",
-			"default": "0"
-		},
-		"offset": {
-			"type": "string",
-			"default": "0"
-		},
-		"optionSelected": {
-			"type": "string",
-			"default": "-1"
+			"default": "Steph"
 		}
 	},
 	"textdomain": "gutenpride",

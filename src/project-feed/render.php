@@ -19,6 +19,8 @@ $homepagePosts = new WP_Query(array(
     'offset' => $attributes['offset'], 
     'posts_per_page' => $attributes['amountSelected'],       
     // 'posts_per_page' => 3,
+    // 'cat' => $category_number,
+    'cat' => $attributes['optionSelected']
  ));
 
 ?>
