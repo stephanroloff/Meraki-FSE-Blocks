@@ -31,6 +31,7 @@ function create_blocks() {
     register_block_type( dirname(__FILE__) . '/build/team-grid-member');
     register_block_type( dirname(__FILE__) . '/build/project-feed');
     register_block_type( dirname(__FILE__) . '/build/masonry-block');
+    register_block_type( dirname(__FILE__) . '/build/accordion-vertical-block');
    
 }
 add_action( 'init', 'create_blocks' );

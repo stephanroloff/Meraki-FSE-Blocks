@@ -1,3 +1,6 @@
+TODOS:
+-Build a spinner loader
+
 1 - Create a ACF Field Group called "Mansonry Galleries"
 
 2 - Then create a Repeater:
