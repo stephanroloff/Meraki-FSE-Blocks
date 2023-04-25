@@ -1,19 +1,20 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/dynamic-block",
+	"name": "create-block/masonry-block",
 	"version": "0.1.0",
-	"title": "Dynamic Block Example",
-	"category": "widgets",
-	"icon": "smiley",
-	"description": "Dynamic Block Example",
+	"title": "Masonry Block",
+	"category": "merakistarter",
+	"description": "Masonry Block",
 	"supports": {
 		"html": false
 	},
 	"attributes": {
 		"amountSelected": {
-			"type": "string",
-			"default": "Steph"
+			"type": "string"
+		},
+		"overlayHover": {
+			"type": "boolean"
 		}
 	},
 	"textdomain": "gutenpride",
