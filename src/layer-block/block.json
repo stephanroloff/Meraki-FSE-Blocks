@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/layer-block",
+	"version": "0.1.0",
+	"title": "Layer Block",
+	"category": "merakistarter",
+	"description": "Layer Block",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"amountSelected": {
+			"type": "string"
+		}
+	},
+	"textdomain": "gutenpride",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"script": "file:./script.js",
+	"viewScript": "file:./frontend.js",
+	"render": "file:./render.php"
+}

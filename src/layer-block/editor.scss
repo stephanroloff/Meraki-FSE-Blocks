@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+// [data-type="create-block/multi-layer-block"] {
+
+//     figure {
+//         // display: flex;
+//         // justify-content: center;
+
+//         //Make Image not resizable
+//         .components-resizable-box__container {
+//             max-width: 100% !important;
+//             max-height: 100% !important;
+//             width: 100% !important;
+//             height: 100% !important;
+//         }
+
+//         //Hide Resize Buttons
+//         .components-resizable-box__handle {
+//             display: none !important;
+//         }
+
+//         figcaption {
+//             display: none;
+//         }
+//     }
+
+//     .is-selected {
+//         z-index: 1000;
+//     }
+
+// }
