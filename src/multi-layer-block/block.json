@@ -7,7 +7,8 @@
 	"category": "merakistarter",
 	"description": "Multi Layer Block",
 	"supports": {
-		"html": false
+		"html": false,
+		"align": true
 	},
 	"attributes": {
 		"amountSelected": {

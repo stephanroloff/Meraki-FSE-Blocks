@@ -5,8 +5,7 @@ import './editor.scss';
 export default function Edit({ attributes }) {
 
 	const MY_TEMPLATE = [
-		['core/group', { className: 'layer-group' }],
-		// ['core/cover', { className: 'multi-layer-cover' }],
+		['core/cover', { className: 'layer-cover' }],
 	];
 
 	return (
